@@ -18,14 +18,14 @@ In my interpretation,
 - So each item in the array is `tile` 
 - So whenever I want to persist something in the `gamestate`,
 - I just create a tile for it.
-    - See `Cell`
+    - See (Cell)[https://github.com/theArtechnology/go-snake/blob/master/src/game/game.go#L18]
     
 - Using the Cell, we can construct the entire state of the game with numbers
  - Since it is a flat surface (2D), we can't have the same item at the same position
 - The move of the user should be decided by the user, so the best case scenario is to make it sequential
  and wait for the user input.
 ## How long it took
-- It took me about 10 hours, 5 hours in the wrong direction see `wip` branch, and 5 additional hours for this version.
+- It took me about 10 hours, 5 hours in the wrong direction see [wip](https://github.com/theArtechnology/go-snake/tree/wip) branch, and 5 additional hours for this version.
 
 ## How to run it
 Simply use the Makefile, or run `go run ./cmd/main.go --size N` where N is the size of the Board (Width and Height)
