@@ -18,7 +18,7 @@ In my interpretation,
 - So each item in the array is `tile` 
 - So whenever I want to persist something in the `gamestate`,
 - I just create a tile for it.
-    - See (Cell)[https://github.com/theArtechnology/go-snake/blob/master/src/game/game.go#L18]
+    - See [Cell](https://github.com/theArtechnology/go-snake/blob/master/src/game/game.go#L18)
     
 - Using the Cell, we can construct the entire state of the game with numbers
  - Since it is a flat surface (2D), we can't have the same item at the same position
