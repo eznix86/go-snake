@@ -5,3 +5,6 @@ help: ## Generates list of makefile actions with description
 
 start: ## start the cli game
 	go run ./cmd/main.go
+
+tests: ## run tests on all the project
+	go test ./... -v
