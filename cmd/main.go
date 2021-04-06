@@ -3,17 +3,20 @@ package main
 import (
 	"flag"
 	"fmt"
-	"go-snake/src/action"
-	"go-snake/src/game"
 	"os"
 	"time"
+
+	"github.com/theArtechnology/go-snake/src/action"
+	"github.com/theArtechnology/go-snake/src/game"
 )
+
 var (
-	err error
+	err       error
 	boardSize = 10
 )
 
 const ErrorDisplayTime = 3
+
 func main() {
 	flag.IntVar(&boardSize, "size", 10, "Size of the board")
 	flag.Parse()

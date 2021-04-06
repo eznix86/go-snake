@@ -2,9 +2,10 @@ package game
 
 import (
 	"fmt"
-	"go-snake/src/action"
 	"math/rand"
 	"time"
+
+	"github.com/theArtechnology/go-snake/src/action"
 )
 
 // tiles
